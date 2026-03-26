@@ -4,6 +4,39 @@ public class PracticeProblem {
 
 	}
 
-	
+	// 1.
+	public static String evenOrOdd (int num) {
+	  if (num % 2 == 0) {
+	      return "Even";
+	  } else if (num % 2 != 0) {
+	      return "Odd";
+	  } else {
+	      return "Zero"
+	  }
+	} 
+
+    // 2.
+    public static String positiveOrNegative (int num) {
+        if (num > 0) {
+            return "Positive";
+        } else if (num < 0) {
+            return "Negative";
+        } else {
+            return "Zero";
+        }
+    }
+
+    // 3.
+    public static String pluralize (String word) {
+        if (word.endsWith("y")) {
+            return "ies";
+        } else if (word.endsWith("ey")) {
+            return "eys";
+        } else if (word.endsWith("ife")) {
+            return "ives";
+        } else {
+            return "s"
+        }
+    }
 
 }
