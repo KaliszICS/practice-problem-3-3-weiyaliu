@@ -11,7 +11,7 @@ public class PracticeProblem {
 	  } else if (num % 2 != 0) {
 	      return "Odd";
 	  } else {
-	      return "Zero"
+	      return "Zero";
 	  }
 	} 
 
@@ -35,7 +35,7 @@ public class PracticeProblem {
         } else if (word.endsWith("ife")) {
             return "ives";
         } else {
-            return "s"
+            return "s";
         }
     }
 
