@@ -30,10 +30,10 @@ public class PracticeProblem {
     public static String pluralize (String word) {
         word = word.toLowerCase();
         
-        if (word.endsWith("y")) {
-            return "ies";
-        } else if (word.endsWith("ey")) {
+       if (word.endsWith("ey")) {
             return "eys";
+        } else if (word.endsWith("y")) {
+            return "ies";
         } else if (word.endsWith("ife")) {
             return "ives";
         } else {
