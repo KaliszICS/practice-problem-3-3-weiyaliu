@@ -6,12 +6,12 @@ public class PracticeProblem {
 
 	// 1.
 	public static String evenOrOdd (int num) {
-	  if (num % 2 == 0) {
-	      return "Even";
-	  } else if (num % 2 != 0) {
-	      return "Odd";
-	  } else {
+	  if (num == 0) {
 	      return "Zero";
+	  } else if (num % 2 += 0) {
+	      return "Even";
+	  } else {
+	      return "Odd";
 	  }
 	} 
 
@@ -28,6 +28,8 @@ public class PracticeProblem {
 
     // 3.
     public static String pluralize (String word) {
+        word = word.toLowerCase();
+        
         if (word.endsWith("y")) {
             return "ies";
         } else if (word.endsWith("ey")) {
